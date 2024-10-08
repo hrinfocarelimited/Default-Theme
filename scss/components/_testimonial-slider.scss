@@ -1,0 +1,134 @@
+/* =====================[ Theme Testimonial Slider Start ]===================== */
+/* ============[ Testimonial Card ]============ */
+.hr-testimonial-card {
+    border-radius: var(--HR-sz-10);
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+    height: calc(var(--HR-per-100) - var(--HR-sz-25));
+    margin-bottom: var(--HR-sz-25);
+
+    /* ============[ Card Body ]============ */
+    .hr-testimonial-card-body {
+        padding: var(--HR-sz-40) var(--HR-sz-24);
+
+        /* ============[ Card Image ]============ */
+        .hr-testimonial-image {
+            margin: var(--HR-sz-0) auto;
+            margin-bottom: var(--HR-sz-20);
+
+            img {
+                width: var(--HR-sz-102);
+                height: var(--HR-sz-102);
+                border-radius: var(--HR-per-100);
+                object-fit: cover;
+            }
+        }
+
+        /* ============[ Card Review ]============ */
+        .hr-testimonial-review {
+
+            .nav-link {
+                padding: var(--HR-sz-0);
+                margin-right: var(--HR-sz-10);
+                font-size: var(--HR-sz-16);
+            }
+
+            .nav-item {
+                &:last-child {
+                    .nav-link {
+                        margin-right: var(--HR-sz-0);
+                    }
+                }
+            }
+        }
+
+        /* ============[ Card Name ]============ */
+        .hr-testimonial-name {
+            font-size: var(--HR-sz-26);
+            line-height: var(--HR-sz-36);
+
+            h4 {
+                font-size: var(--HR-sz-26);
+                line-height: var(--HR-sz-36);
+            }
+        }
+
+        /* ============[ Card Pos ]============ */
+        .hr-testimonial-pos {
+            font-size: var(--th-size-18);
+            line-height: var(--th-size-28);
+            color: gray;
+
+            span {
+                font-size: var(--th-size-18);
+                line-height: var(--th-size-28);
+                color: gray;
+            }
+        }
+    }
+
+    /* ============[ Card Dec ]============ */
+    .hr-testimonial-dec {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        font-size: var(--HR-sz-18);
+        line-height: var(--HR-sz-28);
+        font-family: var(--HR-fw-400);
+
+        p {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            font-size: var(--HR-sz-18);
+            line-height: var(--HR-sz-28);
+            font-family: var(--HR-fw-400);
+        }
+    }
+}
+
+/* =====================[ Testimonial Slider ]===================== */
+.hr-testimonial-slider {
+    overflow: hidden;
+    position: relative;
+    padding: var(--HR-sz-0) var(--HR-sz-5);
+
+
+
+    /* =====================[ Swiper Btns]===================== */
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: #FFF;
+        background: #000;
+        border-radius: var(--HR-per-50);
+        width: var(--HR-sz-50);
+        height: var(--HR-sz-50);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: var(--HR-sz-24);
+        z-index: 10;
+        top: calc(var(--HR-per-50) - var(--HR-sz-25));
+    }
+
+    /* =====================[ Swiper Btns Prev]===================== */
+    .swiper-button-prev {
+        left: var(--HR-sz-25);
+
+        &::after {
+            display: none;
+        }
+    }
+
+    /* =====================[ Swiper Btns Next]===================== */
+    .swiper-button-next {
+        right: var(--HR-sz-25);
+
+        &::after {
+            display: none;
+        }
+    }
+}
+
+/* =====================[ Theme Testimonial SliderStart ]===================== */

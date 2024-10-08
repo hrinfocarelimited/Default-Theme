@@ -1,0 +1,98 @@
+/* ============[ Tabs Start ]============ */
+.hr-tabs {
+    margin-bottom: var(--HR-sz-40);
+
+    .nav {
+        .nav-item {
+            margin-right: var(--HR-sz-15);
+            position: relative;
+
+            .nav-link {
+                padding: var(--HR-sz-12) var(--HR-sz-25);
+                font-size: var(--HR-sz-16);
+                font-family: var(--HR-fw-600);
+                display: block;
+                background: transparent;
+                border: var(--HR-sz-1) solid #0000004e;
+                color: #000;
+
+                span {
+                    margin-left: var(--HR-sz-10);
+                }
+
+                &:hover {
+                    background: #0000004e;
+                }
+            }
+
+            &:last-child {
+                margin-right: var(--HR-sz-0);
+            }
+
+            /* ============[ Header Sub Menu ]============ */
+            .hr-filter-inner-dropdown {
+                display: none;
+                position: absolute;
+                top: var(--HR-sz-50);
+                left: var(--HR-sz-0);
+                min-width: var(--HR-sz-130);
+                background: #FFF;
+                border: var(--HR-sz-1) solid lightgrey;
+                border-radius: var(--HR-sz-6);
+                z-index: 9;
+
+                .nav-item {
+                    position: relative;
+                    margin-right: var(--HR-sz-0);
+
+                    .nav-link {
+                        padding: var(--HR-sz-10) var(--HR-sz-15);
+                        white-space: nowrap;
+                        width: var(--HR-per-100);
+                    }
+
+                    /* ============[ Header Inner Sub Menu ]============ */
+                    .hr-filter-sub-inner-dropdown {
+                        display: none;
+                        position: absolute;
+                        top: var(--HR-sz-0);
+                        left: var(--HR-per-100);
+                        min-width: var(--HR-sz-130);
+                        background: #FFF;
+                        border: var(--HR-sz-1) solid lightgrey;
+                        border-radius: var(--HR-sz-6);
+                        z-index: 10;
+
+                        .nav-item {
+                            position: relative;
+                            margin-right: var(--HR-sz-0);
+
+                            .nav-link {
+                                padding: var(--HR-sz-10) var(--HR-sz-15);
+                                white-space: nowrap;
+                                width: var(--HR-per-100);
+                            }
+                        }
+
+                    }
+
+                    &:hover .hr-filter-sub-inner-dropdown {
+                        display: block;
+                    }
+                }
+
+            }
+
+            &:hover .hr-filter-inner-dropdown {
+                display: block;
+            }
+
+        }
+    }
+}
+
+.hr-filter-tabs {
+    margin-bottom: var(--HR-sz-40);
+}
+
+/* ============[ Tabs End ]============ */

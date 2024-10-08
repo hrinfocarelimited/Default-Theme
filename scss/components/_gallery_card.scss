@@ -1,0 +1,45 @@
+/* ============[ Gallery Start ]============ */
+.hr-gallery-card {
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+
+    .hr-gallery {
+        position: relative;
+
+        /* =======[ Image ]======= */
+        img {
+            width: var(--HR-per-100);
+            height: fit-content;
+            object-fit: cover;
+        }
+
+        /* =======[ Over Hover ]======= */
+        .hr-hover-plus {
+            background: rgba(0, 0, 0, 0.3058823529);
+            width: var(--HR-per-100);
+            height: var(--HR-per-100);
+            position: absolute;
+            top: var(--HR-sz-0);
+            left: var(--HR-sz-0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+
+            span {
+                font-size: var(--HR-sz-30);
+                color: #fff;
+            }
+        }
+
+        /* =======[ Hover ]======= */
+        &:hover {
+            cursor: zoom-in;
+
+            .hr-hover-plus {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+/* ============[ Gallery End ]============ */

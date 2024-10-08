@@ -1,0 +1,40 @@
+/* =====================[ Theme Brands Start ]===================== */
+.hr-marquee {
+    overflow: hidden;
+
+    .swiper-slide {
+        width: 260px;
+    }
+
+    /* ============[ Marquee Card ]============ */
+    .hr-brand-card {
+        display: block;
+        border-radius: var(--HR-sz-8);
+        margin-bottom: var(--HR-sz-25);
+        height: calc(var(--HR-per-100) - var(--HR-sz-25));
+        box-shadow: var(--HR-sz-0) var(--HR-sz-4) var(--HR-sz-8) rgb(0 0 0 / 8%);
+
+        /* ============[ Marquee Card Body ]============ */
+        .hr-brand-card-body {
+            width: var(--HR-per-100);
+            height: var(--HR-per-100);
+            padding: var(--HR-sz-15) var(--HR-sz-0);
+            position: relative;
+
+            /* ============[ Marquee Brand Image ]============ */
+            .hr-brand-image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: auto;
+                    height: var(--HR-sz-42);
+                }
+            }
+        }
+    }
+
+}
+
+/* =====================[ Theme BrandsEnd ]===================== */

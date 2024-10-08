@@ -1,0 +1,192 @@
+/* ============[ Dynamic Start ]============ */
+/* ============[ Detail Dynamic Start ]============ */
+.hr-detail-dynamic {
+    .hr-detail-dynamic-head {
+        display: flex;
+        margin-bottom: var(--HR-sz-20);
+    }
+
+    /* ============[ Thumbnail ]============ */
+    .hr-detail-thumbnail {
+        width: var(--HR-per-100);
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: var(--HR-sz-30);
+        border-radius: var(--HR-sz-12);
+    }
+
+    /* ============[ Tags ]============ */
+    .hr-info-tags {
+        margin-bottom: var(--HR-sz-20);
+
+        .nav-item {
+            &:last-child {
+                .nav-link {
+                    margin-right: var(--HR-sz-0);
+                }
+            }
+
+            .nav-link {
+                padding: var(--HR-sz-0);
+                margin-right: var(--HR-sz-15);
+
+
+
+                span {
+                    margin-right: var(--HR-sz-8);
+                }
+
+                .hr-tags {
+                    margin-right: var(--HR-sz-0);
+                }
+            }
+        }
+
+        /* ============[ Tags Group ]============ */
+        .hr-tags-group {
+            display: flex;
+            align-items: center;
+
+            span {
+                margin-right: var(--HR-sz-8);
+            }
+
+            .nav-link {
+                padding: var(--HR-sz-0);
+                margin-right: var(--HR-sz-10) !important;
+            }
+
+            &:last-child {
+                .nav-link {
+                    margin-right: var(--HR-sz-0);
+                }
+
+            }
+        }
+    }
+
+    /* ============[ Titel ]============ */
+    .hr-titel {
+        font-size: var(--HR-sz-40);
+        font-weight: var(--HR-fw-600);
+        line-height: var(--HR-sz-43);
+        margin-bottom: var(--HR-sz-20);
+
+        h3 {
+            font-size: var(--HR-sz-40);
+            font-weight: var(--HR-fw-600);
+            line-height: var(--HR-sz-43);
+            margin-bottom: var(--HR-sz-0);
+        }
+    }
+}
+
+/* ============[ Dynamic ]============ */
+.hr-dynamic {
+    h1 {
+        font-size: var(--HR-sz-40);
+        line-height: var(--HR-sz-45);
+        font-weight: var(--HR-fw-700);
+    }
+
+    h2 {
+        font-size: var(--HR-sz-32);
+        line-height: var(--HR-sz-38);
+        font-weight: var(--HR-fw-600);
+    }
+
+    h3 {
+        font-size: var(--HR-sz-28);
+        line-height: var(--HR-sz-34);
+        font-weight: var(--HR-fw-600);
+    }
+
+    h4 {
+        font-size: var(--HR-sz-24);
+        line-height: var(--HR-sz-28);
+        font-weight: var(--HR-fw-600);
+    }
+
+    h5 {
+        font-size: var(--HR-sz-20);
+        line-height: var(--HR-sz-26);
+        font-weight: var(--HR-fw-500);
+    }
+
+    h6 {
+        font-size: var(--HR-sz-16);
+        line-height: var(--HR-sz-22);
+        font-weight: var(--HR-fw-400);
+    }
+
+    p {
+        font-size: var(--HR-sz-18);
+        line-height: var(--HR-sz-28);
+        font-weight: var(--HR-fw-400);
+        margin-bottom: var(--HR-sz-0);
+    }
+
+    b {
+        font-size: var(--HR-sz-18);
+        line-height: var(--HR-sz-28);
+        font-weight: var(--HR-fw-600);
+        margin-bottom: var(--HR-sz-10);
+    }
+
+    a {
+        font-size: var(--HR-sz-18);
+        line-height: var(--HR-sz-28);
+        font-weight: var(--HR-fw-400);
+        margin-bottom: var(--HR-sz-0);
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    ul {
+        margin: var(--HR-sz-0);
+        padding: var(--HR-sz-0);
+        list-style-type: none;
+
+        li {
+            margin-bottom: var(--HR-sz-10);
+            padding-left: var(--HR-sz-22);
+            position: relative;
+            font-size: var(--HR-sz-18);
+            line-height: var(--HR-sz-28);
+            font-weight: var(--HR-fw-400);
+
+            p {
+                font-size: var(--HR-sz-18);
+                line-height: var(--HR-sz-28);
+                font-weight: var(--HR-fw-400);
+            }
+
+            &:last-child {
+                margin-bottom: var(--HR-sz-0);
+            }
+
+            &::before {
+                position: absolute;
+                left: var(--HR-sz-0);
+                top: var(--HR-sz-1);
+                content: "\f45c";
+                font-weight: var(--HR-fw-900);
+                font-family: "Font Awesome 5 Pro";
+                display: inline-block;
+                width: var(--HR-sz-16);
+                height: var(--HR-sz-16);
+                margin-right: var(--HR-sz-5);
+                color: black;
+                font-size: var(--HR-sz-10);
+            }
+        }
+    }
+}
+
+
+/* ============[ Dynamic End ]============ */

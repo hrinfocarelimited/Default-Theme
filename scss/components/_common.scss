@@ -1,0 +1,119 @@
+/* =====================[ Common Scss ]===================== */
+/* ===========[ Html ]=========== */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===========[ Unversal ]=========== */
+* {
+    margin: var(--HR-sz-0);
+    padding: var(--HR-sz-0);
+}
+
+/* ===========[ Body ]=========== */
+body {
+    position: relative;
+    font-size: var(--HR-sz-16);
+    font-weight: var(--HR-fw-400);
+}
+
+/* ===========[ A Tag ]=========== */
+a {
+    text-decoration: none;
+}
+
+/* ===========[ check box ]=========== */
+.form-check {
+    .form-check-input {
+        box-shadow: none;
+    }
+
+    .form-check-label {
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+/* ===========[ Select ]=========== */
+.form-select {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+/* ===========[ Btn ]=========== */
+.btn {
+    box-shadow: none;
+    outline: none;
+    border: none;
+
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        border: none;
+    }
+}
+
+/* ===========[ main Btn ]=========== */
+.btn-main {
+    padding: var(--HR-sz-12) var(--HR-sz-25);
+    font-size: var(--HR-sz-16);
+    font-family: var(--HR-fw-600);
+    display: block;
+    background: transparent;
+    border: var(--HR-sz-1) solid #0000004e;
+
+    &:hover {
+        background: #0000004e;
+    }
+}
+
+/* ===========[ Btn Group ]=========== */
+.hr-btn-group {
+    display: flex;
+    align-items: center;
+
+    .btn {
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+}
+
+/* ===========[ xEndtoEnd ]=========== */
+.hr-xendtoend {
+    justify-content: space-between;
+}
+
+/* ===========[ xcenter]=========== */
+.hr-xcenter {
+    justify-content: center;
+}
+
+/* ===========[ xstart]=========== */
+.hr-xstart {
+    justify-content: flex-start;
+}
+
+
+/* ===========[ xcenter]=========== */
+.hr-ycenter {
+    align-items: center;
+}
+
+/* ===========[ xstart]=========== */
+.hr-ystart {
+    align-items: flex-start;
+}
+
+/* ===========[ xstart]=========== */
+.hr-yend {
+    align-items: flex-end;
+}
+
+/* =====================[ Common Scss End ]===================== */

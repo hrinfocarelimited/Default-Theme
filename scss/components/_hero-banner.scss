@@ -1,0 +1,184 @@
+/* =====================[ Theme Common Hero Banner ]===================== */
+/* =====================[ Simpal Swiper start ]===================== */
+.hr-hero-banner {
+    height: calc(var(--HR-vh-100) - var(--HR-sz-120));
+    position: relative;
+
+    /* =====================[ Hero Banner Swiper ]===================== */
+    .swiper-container {
+        width: var(--HR-per-100);
+        height: var(--HR-per-100);
+        position: relative;
+        overflow: hidden;
+
+        .swiper-wrapper {
+            .swiper-slide {
+                height: var(--HR-per-100);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-position: center !important;
+                background-size: cover !important;
+                background-repeat: no-repeat !important;
+            }
+        }
+    }
+
+    /* =====================[ Hero Banner Swiper Btns]===================== */
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: #FFF;
+        background: #000;
+        border-radius: var(--HR-per-50);
+        width: var(--HR-sz-50);
+        height: var(--HR-sz-50);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: var(--HR-sz-24);
+        z-index: 10;
+        top: calc(var(--HR-per-50) - var(--HR-sz-25));
+    }
+
+    /* =====================[ Hero Banner Swiper Btns Prev]===================== */
+    .swiper-button-prev {
+        left: var(--HR-sz-60);
+
+        &::after {
+            display: none;
+        }
+    }
+
+    /* =====================[ Hero Banner Swiper Btns Next]===================== */
+    .swiper-button-next {
+        right: var(--HR-sz-60);
+
+        &::after {
+            display: none;
+        }
+    }
+
+    /* =====================[ Hero Banner Sub Titel ]===================== */
+    .hr-sub-titel {
+        span {
+            font-size: var(--HR-sz-22);
+            font-weight: var(--HR-fw-500);
+        }
+    }
+
+    /* =====================[ Hero Banner Titel ]===================== */
+    .hr-titel {
+        h1 {
+            font-size: var(--HR-sz-50);
+            font-weight: var(--HR-fw-600);
+        }
+    }
+
+    /* =====================[ Hero Banner Dec ]===================== */
+    .hr-dec {
+        p {
+            font-size: var(--HR-sz-16);
+            font-weight: var(--HR-fw-500);
+        }
+    }
+
+    /* =====================[ Hero Banner Swiper End ]===================== */
+}
+
+/* =====================[ Simpal Swiper End ]===================== */
+
+/* =====================[ View Height Full Banner Start ]===================== */
+.hr-hero-fullvh {
+    height: var(--HR-vh-100);
+    position: relative;
+}
+
+/* =====================[ Effact Slider Start ]===================== */
+.hr-swiper-hero-effect {
+    height: var(--HR-per-100);
+
+    /* =====================[ Banner Right Area ]===================== */
+    .hr-banner-right {
+        position: relative;
+        height: var(--HR-vh-100);
+
+        /* =====================[ banner Image Wrap ]===================== */
+        .hr-banner-right-img {
+            position: absolute;
+            top: var(--HR-sz-0);
+            left: var(--HR-sz-0);
+            width: var(--HR-vw-50);
+            height: var(--HR-vh-100);
+            object-fit: cover;
+            display: flex;
+            align-items: center;
+
+            /* =====================[ Image ]===================== */
+            img {
+                width: var(--HR-per-100);
+                height: auto;
+            }
+        }
+
+
+    }
+}
+
+/* =====================[ Effact Slider Start ]===================== */
+
+/* =====================[ Hero Bottom Start ]===================== */
+.hr-banner-bottom {
+    position: absolute;
+    left: var(--HR-sz-0);
+    bottom: var(--HR-sz-50);
+    width: var(--HR-per-100);
+    z-index: 1;
+    overflow: hidden;
+}
+
+/* =====================[ Hero Bottom Start ]===================== */
+
+/* =====================[ Effact Slider Start ]===================== */
+
+/* =====================[ Aniniminate Slider Start ]===================== */
+
+.hr-swiper-hero-aniniminate {
+    width: var(--HR-per-100);
+    height: 625px;
+
+    .swiper-container {
+        overflow: hidden;
+        height: var(--HR-per-100);
+
+        .swiper-wrapper {
+            height: var(--HR-per-100);
+
+            .swiper-slide {
+                height: var(--HR-per-100);
+                background-position: center left;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                .hr-titel {
+                    font-size: var(--HR-sz-50);
+                    font-weight: var(--HR-fw-600);
+
+                    h1 {
+                        font-size: var(--HR-sz-50);
+                        font-weight: var(--HR-fw-600);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media (max-width: 768px) {
+
+// }
+
+/* =====================[ Aniniminate Slider Start ]===================== */
+
+/* =====================[ View Height Full Banner End ]===================== */
+
+/* =====================[ Theme Common Banner End ]===================== */

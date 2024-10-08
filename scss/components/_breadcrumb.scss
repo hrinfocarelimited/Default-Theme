@@ -1,0 +1,103 @@
+/* =====================[ Theme Breadcrumb Start ]===================== */
+.hr-breadcrumb {
+    padding: var(--HR-sz-100) var(--HR-sz-0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* ============[ Breadcrumb Wrap ]============ */
+    .hr-breadcrumb-wrap {
+        display: flex;
+
+        /* ============[ Breadcrumb Content ]============ */
+        .hr-breadcrumb-content {
+
+            /* ============[ Breadcrumb Titel ]============ */
+            .hr-titel {
+                font-size: var(--HR-sz-40);
+                line-height: var(--HR-sz-43);
+                margin-bottom: var(--HR-sz-0);
+                font-weight: var(--HR-fw-600);
+                margin-bottom: var(--HR-sz-15);
+
+                h1 {
+                    font-size: var(--HR-sz-40);
+                    line-height: var(--HR-sz-43);
+                    margin-bottom: var(--HR-sz-0);
+                    font-weight: var(--HR-fw-600);
+                }
+            }
+
+            /* ============[ Breadcrumb Nav ]============ */
+            .hr-breadcrumb-nav {
+                .breadcrumb {
+                    margin-bottom: var(--HR-sz-0);
+                }
+            }
+
+            /* ============[ Breadcrumb Dec ]============ */
+            .hr-breadcrumb-dec {
+                font-size: var(--HR-sz-18);
+                line-height: var(--HR-sz-28);
+                font-family: var(--HR-fw-400);
+
+                p {
+                    font-size: var(--HR-sz-18);
+                    line-height: var(--HR-sz-28);
+                    font-family: var(--HR-fw-400);
+                    margin-bottom: var(--HR-sz-0);
+                }
+            }
+
+            /* ============[ Breadcrumb Btn ]============ */
+            .hr-breadcrumb-link {
+                margin-top: var(--HR-sz-30);
+
+                .main-btn {
+                    padding: var(--HR-sz-12) var(--HR-sz-25);
+                    font-size: var(--HR-sz-16);
+                    font-family: var(--HR-fw-600);
+                    display: block;
+                    background: transparent;
+                    border: var(--HR-sz-1) solid #0000004e;
+
+                    &:hover {
+                        background: #0000004e;
+                    }
+                }
+            }
+        }
+    }
+
+    /* ============[ Breadcrumb Center ]============ */
+    .hr-breadcrumb-center {
+        justify-content: center;
+
+        .hr-breadcrumb-content {
+            text-align: center;
+
+            .hr-breadcrumb-nav {
+                .breadcrumb {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    /* ============[ Breadcrumb Right ]============ */
+    .hr-breadcrumb-end {
+        justify-content: end;
+
+        .hr-breadcrumb-content {
+            text-align: end;
+
+            .hr-breadcrumb-nav {
+                .breadcrumb {
+                    justify-content: end;
+                }
+            }
+        }
+    }
+}
+
+/* =====================[ Theme Breadcrumb End ]===================== */

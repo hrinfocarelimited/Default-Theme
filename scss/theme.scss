@@ -1,0 +1,56 @@
+/*!
+ * HRInfo-Theme  v0.1
+ * Copyright 2024 The hrinfocare.com Authors
+ * Licensed under MIT (https://)
+ */
+
+/* =====================[ Swiper Import ]===================== */
+@import '../../../plugins/swiper/swiper-bundle.min.css';
+/* =====================[ Swiper Import End ]===================== */
+
+/* =====================[ Fontawesome Free/Pro Import ]===================== */
+@import '../../../plugins/fontawesome-pro/css/all.min.css';
+/* =====================[ Fontawesome Free/Pro Import End ]===================== */
+
+/* =====================[ Magnific Popup Import ]===================== */
+@import '../../../plugins/magnific-popup/magnific-popup.min.css';
+@import './components/mfp';
+/* =====================[ Magnific Popup Import End ]===================== */
+
+/* =====================[ Bootstrap Import ]===================== */
+@import '../../../plugins/bootstarp/scss/bootstrap.scss';
+/* =====================[ Bootstrap Import End ]===================== */
+
+/* =====================[ HR Info Theme Start ]===================== */
+@import './components/roots';
+@import './components/spacing';
+@import './components/offset';
+@import './components/common';
+@import './components/tooltip';
+@import './components/badge';
+@import './components/accordion';
+@import './components/background';
+@import './components/header';
+@import './components/footer';
+@import './components/breadcrumb';
+@import './components/hero-banner';
+@import './components/section';
+@import './components/services-card';
+@import './components/expertise-card';
+@import './components/blog-card';
+@import './components/gallery_card';
+@import './components/brands-card';
+@import './components/portfolio-card';
+@import './components/widgets';
+@import './components/testimonial-slider';
+@import './components/portfolio';
+@import './components/form';
+@import './components/map';
+@import './components/dynamic';
+@import './components/tabs';
+@import './components/masonry';
+@import './components/auth';
+@import './components/product';
+
+@import './components/popup';
+/* =====================[ HR Info Theme End ]===================== */

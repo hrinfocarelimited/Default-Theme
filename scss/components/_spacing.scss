@@ -1,0 +1,759 @@
+/* =====================[ Theme Breakpoints ]===================== */
+
+$hr-per: 0%;
+$breakpoints: (
+    xxl,
+    xl,
+    lg,
+    md,
+    sm,
+    no
+);
+
+/* =====================[ Theme Function to get the Breakpoint Value]===================== */
+@function breakpoint-value($breakpoint) {
+    @return var(--Hr-#{$breakpoint});
+}
+
+/* =====================[ Theme Margin Padding ]===================== */
+@each $breakpoint in $breakpoints {
+    @for $i from 1 through 300 {
+
+        /* =====================[ Theme Non-responsive Margin Padding px ]===================== */
+        .hr-m-sz-#{$i} {
+            margin: #{$i}px;
+        }
+
+        .hr-ms-sz-#{$i} {
+            margin-left: #{$i}px;
+        }
+
+        .hr-me-sz-#{$i} {
+            margin-right: #{$i}px;
+        }
+
+        .hr-mt-sz-#{$i} {
+            margin-top: #{$i}px;
+        }
+
+        .hr-mb-sz-#{$i} {
+            margin-bottom: #{$i}px;
+        }
+
+        .hr-mx-sz-#{$i} {
+            margin-left: #{$i}px;
+            margin-right: #{$i}px;
+        }
+
+        .hr-my-sz-#{$i} {
+            margin-top: #{$i}px;
+            margin-bottom: #{$i}px;
+        }
+
+        .hr-p-sz-#{$i} {
+            padding: #{$i}px;
+        }
+
+        .hr-ps-sz-#{$i} {
+            padding-left: #{$i}px;
+        }
+
+        .hr-pe-sz-#{$i} {
+            padding-right: #{$i}px;
+        }
+
+        .hr-pt-sz-#{$i} {
+            padding-top: #{$i}px;
+        }
+
+        .hr-pb-sz-#{$i} {
+            padding-bottom: #{$i}px;
+        }
+
+        .hr-px-sz-#{$i} {
+            padding-left: #{$i}px;
+            padding-right: #{$i}px;
+        }
+
+        .hr-py-sz-#{$i} {
+            padding-top: #{$i}px;
+            padding-bottom: #{$i}px;
+        }
+    }
+
+    @for $i from 1 through 100 {
+
+        /* =====================[ Theme Non-responsive Margin Padding vh ]===================== */
+        .hr-m-vh-#{$i} {
+            margin: #{$i}vh;
+        }
+
+        .hr-ms-vh-#{$i} {
+            margin-left: #{$i}vh;
+        }
+
+        .hr-me-vh-#{$i} {
+            margin-right: #{$i}vh;
+        }
+
+        .hr-mt-vh-#{$i} {
+            margin-top: #{$i}vh;
+        }
+
+        .hr-mb-vh-#{$i} {
+            margin-bottom: #{$i}vh;
+        }
+
+        .hr-mx-vh-#{$i} {
+            margin-left: #{$i}vh;
+            margin-right: #{$i}vh;
+        }
+
+        .hr-my-vh-#{$i} {
+            margin-top: #{$i}vh;
+            margin-bottom: #{$i}vh;
+        }
+
+        .hr-p-vh-#{$i} {
+            padding: #{$i}vh;
+        }
+
+        .hr-ps-vh-#{$i} {
+            padding-left: #{$i}vh;
+        }
+
+        .hr-pe-vh-#{$i} {
+            padding-right: #{$i}vh;
+        }
+
+        .hr-pt-vh-#{$i} {
+            padding-top: #{$i}vh;
+        }
+
+        .hr-pb-vh-#{$i} {
+            padding-bottom: #{$i}vh;
+        }
+
+        .hr-px-vh-#{$i} {
+            padding-left: #{$i}vh;
+            padding-right: #{$i}vh;
+        }
+
+        .hr-py-vh-#{$i} {
+            padding-top: #{$i}vh;
+            padding-bottom: #{$i}vh;
+        }
+
+        /* =====================[ Theme Non-responsive Margin Padding vw ]===================== */
+        .hr-m-vw-#{$i} {
+            margin: #{$i}vw;
+        }
+
+        .hr-ms-vw-#{$i} {
+            margin-left: #{$i}vw;
+        }
+
+        .hr-me-vw-#{$i} {
+            margin-right: #{$i}vw;
+        }
+
+        .hr-mt-vw-#{$i} {
+            margin-top: #{$i}vw;
+        }
+
+        .hr-mb-vw-#{$i} {
+            margin-bottom: #{$i}vw;
+        }
+
+        .hr-mx-vw-#{$i} {
+            margin-left: #{$i}vw;
+            margin-right: #{$i}vw;
+        }
+
+        .hr-my-vw-#{$i} {
+            margin-top: #{$i}vw;
+            margin-bottom: #{$i}vw;
+        }
+
+        .hr-p-vw-#{$i} {
+            padding: #{$i}vw;
+        }
+
+        .hr-ps-vw-#{$i} {
+            padding-left: #{$i}vw;
+        }
+
+        .hr-pe-vw-#{$i} {
+            padding-right: #{$i}vw;
+        }
+
+        .hr-pt-vw-#{$i} {
+            padding-top: #{$i}vw;
+        }
+
+        .hr-pb-vw-#{$i} {
+            padding-bottom: #{$i}vw;
+        }
+
+        .hr-px-vw-#{$i} {
+            padding-left: #{$i}vw;
+            padding-right: #{$i}vw;
+        }
+
+        .hr-py-vw-#{$i} {
+            padding-top: #{$i}vw;
+            padding-bottom: #{$i}vw;
+        }
+
+        /* =====================[ Theme Non-responsive Margin Padding % ]===================== */
+        .hr-m-per-#{$i} {
+            margin: var(--HR-per-#{$i});
+        }
+
+        .hr-ms-per-#{$i} {
+            margin-left: var(--HR-per-#{$i});
+        }
+
+        .hr-me-per-#{$i} {
+            margin-right: var(--HR-per-#{$i});
+        }
+
+        .hr-mt-per-#{$i} {
+            margin-top: var(--HR-per-#{$i});
+        }
+
+        .hr-mb-per-#{$i} {
+            margin-bottom: var(--HR-per-#{$i});
+        }
+
+        .hr-mx-per-#{$i} {
+            margin-left: var(--HR-per-#{$i});
+            margin-right: var(--HR-per-#{$i});
+        }
+
+        .hr-my-per-#{$i} {
+            margin-top: var(--HR-per-#{$i});
+            margin-bottom: var(--HR-per-#{$i});
+        }
+
+        .hr-p-per-#{$i} {
+            padding: var(--HR-per-#{$i});
+        }
+
+        .hr-ps-per-#{$i} {
+            padding-left: var(--HR-per-#{$i});
+        }
+
+        .hr-pe-per-#{$i} {
+            padding-right: var(--HR-per-#{$i});
+        }
+
+        .hr-pt-per-#{$i} {
+            padding-top: var(--HR-per-#{$i});
+        }
+
+        .hr-pb-per-#{$i} {
+            padding-bottom: var(--HR-per-#{$i});
+        }
+
+        .hr-px-per-#{$i} {
+            padding-left: var(--HR-per-#{$i});
+            padding-right: var(--HR-per-#{$i});
+        }
+
+        .hr-py-per-#{$i} {
+            padding-top: var(--HR-per-#{$i});
+            padding-bottom: var(--HR-per-#{$i});
+        }
+    }
+
+    @for $i from 1 through 300 {
+
+        /* =====================[ Theme Responsive Margin Padding px ]===================== */
+        .hr-m-#{$breakpoint}-sz-#{$i} {
+            margin: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin: 0;
+            }
+        }
+
+        .hr-ms-#{$breakpoint}-sz-#{$i} {
+            margin-left: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-left: 0;
+            }
+        }
+
+        .hr-me-#{$breakpoint}-sz-#{$i} {
+            margin-right: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-right: 0;
+            }
+        }
+
+        .hr-mt-#{$breakpoint}-sz-#{$i} {
+            margin-top: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-top: 0;
+            }
+        }
+
+        .hr-mb-#{$breakpoint}-sz-#{$i} {
+            margin-bottom: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-bottom: 0;
+            }
+        }
+
+        .hr-mx-#{$breakpoint}-sz-#{$i} {
+            margin-left: #{$i}px;
+            margin-right: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .hr-my-#{$breakpoint}-sz-#{$i} {
+            margin-top: #{$i}px;
+            margin-bottom: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .hr-p-#{$breakpoint}-sz-#{$i} {
+            padding: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding: 0;
+            }
+        }
+
+        .hr-ps-#{$breakpoint}-sz-#{$i} {
+            padding-left: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-left: 0;
+            }
+        }
+
+        .hr-pe-#{$breakpoint}-sz-#{$i} {
+            padding-right: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-right: 0;
+            }
+        }
+
+        .hr-pt-#{$breakpoint}-sz-#{$i} {
+            padding-top: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-top: 0;
+            }
+        }
+
+        .hr-pb-#{$breakpoint}-sz-#{$i} {
+            padding-bottom: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-bottom: 0;
+            }
+        }
+
+        .hr-px-#{$breakpoint}-sz-#{$i} {
+            padding-left: #{$i}px;
+            padding-right: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        .hr-py-#{$breakpoint}-sz-#{$i} {
+            padding-top: #{$i}px;
+            padding-bottom: #{$i}px;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    @for $i from 1 through 100 {
+
+        /* =====================[ Theme Responsive Margin Padding vh ]===================== */
+        .hr-m-#{$breakpoint}-vh-#{$i} {
+            margin: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin: 0;
+            }
+        }
+
+        .hr-ms-#{$breakpoint}-vh-#{$i} {
+            margin-left: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-left: 0;
+            }
+        }
+
+        .hr-me-#{$breakpoint}-vh-#{$i} {
+            margin-right: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-right: 0;
+            }
+        }
+
+        .hr-mt-#{$breakpoint}-vh-#{$i} {
+            margin-top: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-top: 0;
+            }
+        }
+
+        .hr-mb-#{$breakpoint}-vh-#{$i} {
+            margin-bottom: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-bottom: 0;
+            }
+        }
+
+        .hr-mx-#{$breakpoint}-vh-#{$i} {
+            margin-left: #{$i}vh;
+            margin-right: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .hr-my-#{$breakpoint}-vh-#{$i} {
+            margin-top: #{$i}vh;
+            margin-bottom: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .hr-p-#{$breakpoint}-vh-#{$i} {
+            padding: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding: 0;
+            }
+        }
+
+        .hr-ps-#{$breakpoint}-vh-#{$i} {
+            padding-left: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-left: 0;
+            }
+        }
+
+        .hr-pe-#{$breakpoint}-vh-#{$i} {
+            padding-right: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-right: 0;
+            }
+        }
+
+        .hr-pt-#{$breakpoint}-vh-#{$i} {
+            padding-top: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-top: 0;
+            }
+        }
+
+        .hr-pb-#{$breakpoint}-vh-#{$i} {
+            padding-bottom: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-bottom: 0;
+            }
+        }
+
+        .hr-px-#{$breakpoint}-vh-#{$i} {
+            padding-left: #{$i}vh;
+            padding-right: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        .hr-py-#{$breakpoint}-vh-#{$i} {
+            padding-top: #{$i}vh;
+            padding-bottom: #{$i}vh;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+
+        /* =====================[ Theme Responsive Margin Padding vw ]===================== */
+        .hr-m-#{$breakpoint}-vw-#{$i} {
+            margin: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin: 0;
+            }
+        }
+
+        .hr-ms-#{$breakpoint}-vw-#{$i} {
+            margin-left: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-left: 0;
+            }
+        }
+
+        .hr-me-#{$breakpoint}-vw-#{$i} {
+            margin-right: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-right: 0;
+            }
+        }
+
+        .hr-mt-#{$breakpoint}-vw-#{$i} {
+            margin-top: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-top: 0;
+            }
+        }
+
+        .hr-mb-#{$breakpoint}-vw-#{$i} {
+            margin-bottom: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-bottom: 0;
+            }
+        }
+
+        .hr-mx-#{$breakpoint}-vw-#{$i} {
+            margin-left: #{$i}vw;
+            margin-right: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .hr-my-#{$breakpoint}-vw-#{$i} {
+            margin-top: #{$i}vw;
+            margin-bottom: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .hr-p-#{$breakpoint}-vw-#{$i} {
+            padding: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding: 0;
+            }
+        }
+
+        .hr-ps-#{$breakpoint}-vw-#{$i} {
+            padding-left: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-left: 0;
+            }
+        }
+
+        .hr-pe-#{$breakpoint}-vw-#{$i} {
+            padding-right: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-right: 0;
+            }
+        }
+
+        .hr-pt-#{$breakpoint}-vw-#{$i} {
+            padding-top: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-top: 0;
+            }
+        }
+
+        .hr-pb-#{$breakpoint}-vw-#{$i} {
+            padding-bottom: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-bottom: 0;
+            }
+        }
+
+        .hr-px-#{$breakpoint}-vw-#{$i} {
+            padding-left: #{$i}vw;
+            padding-right: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        .hr-py-#{$breakpoint}-vw-#{$i} {
+            padding-top: #{$i}vw;
+            padding-bottom: #{$i}vw;
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+
+        /* =====================[ Theme Responsive Margin Padding % ]===================== */
+        .hr-m-#{$breakpoint}-per-#{$i} {
+            margin: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                margin: 0;
+            }
+        }
+
+        .hr-ms-#{$breakpoint}-per-#{$i} {
+            margin-left: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-left: 0;
+            }
+        }
+
+        .hr-me-#{$breakpoint}-per-#{$i} {
+            margin-right: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-right: 0;
+            }
+        }
+
+        .hr-mt-#{$breakpoint}-per-#{$i} {
+            margin-top: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-top: 0;
+            }
+        }
+
+        .hr-mb-#{$breakpoint}-per-#{$i} {
+            margin-bottom: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-bottom: 0;
+            }
+        }
+
+        .hr-mx-#{$breakpoint}-per-#{$i} {
+            margin-left: var(--HR-per-#{$i});
+            margin-right: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .hr-my-#{$breakpoint}-per-#{$i} {
+            margin-top: var(--HR-per-#{$i});
+            margin-bottom: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+
+        .hr-p-#{$breakpoint}-per-#{$i} {
+            padding: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                padding: 0;
+            }
+        }
+
+        .hr-ps-#{$breakpoint}-per-#{$i} {
+            padding-left: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-left: 0;
+            }
+        }
+
+        .hr-pe-#{$breakpoint}-per-#{$i} {
+            padding-right: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-right: 0;
+            }
+        }
+
+        .hr-pt-#{$breakpoint}-per-#{$i} {
+            padding-top: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-top: 0;
+            }
+        }
+
+        .hr-pb-#{$breakpoint}-per-#{$i} {
+            padding-bottom: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-bottom: 0;
+            }
+        }
+
+        .hr-px-#{$breakpoint}-per-#{$i} {
+            padding-left: var(--HR-per-#{$i});
+            padding-right: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        .hr-py-#{$breakpoint}-per-#{$i} {
+            padding-top: var(--HR-per-#{$i});
+            padding-bottom: var(--HR-per-#{$i});
+
+            @include media-breakpoint-down($breakpoint) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+}

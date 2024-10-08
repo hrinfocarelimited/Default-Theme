@@ -1,0 +1,97 @@
+/* =====================[ Theme Services Card Start ]===================== */
+.hr-services-card {
+    border-radius: var(--HR-sz-10);
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+    height: calc(var(--HR-per-100) - var(--HR-sz-25));
+    margin-bottom: var(--HR-sz-25);
+
+    .hr-services-card-body {
+        padding: var(--HR-sz-40) var(--HR-sz-24);
+
+        /* ============[ Card Icon Image ]============ */
+        .hr-card-icon {
+            width: var(--HR-sz-102);
+            height: var(--HR-sz-102);
+            border-radius: var(--HR-per-50);
+            background: rgb(0 0 0 / 8%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: var(--HR-sz-0) auto;
+            margin-bottom: var(--HR-sz-20);
+
+            img {
+                width: var(--HR-sz-62);
+                height: var(--HR-sz-62);
+                object-fit: cover;
+            }
+        }
+
+        /* ============[ Card Contant ]============ */
+        .hr-card-content {
+
+            /* ============[ Card Titel ]============ */
+            .hr-titel {
+                font-size: var(--HR-sz-26);
+                line-height: var(--HR-sz-30);
+
+                h3 {
+                    font-size: var(--HR-sz-26);
+                    line-height: var(--HR-sz-30);
+                }
+
+                a {
+                    font-size: var(--HR-sz-26);
+                    line-height: var(--HR-sz-30);
+
+                    h3 {
+                        font-size: var(--HR-sz-26);
+                        line-height: var(--HR-sz-30);
+                    }
+                }
+            }
+
+            /* ============[ Card Text ]============ */
+            .hr-dec {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                font-size: var(--HR-sz-18);
+                line-height: var(--HR-sz-28);
+                font-family: var(--HR-fw-400);
+
+                p {
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    font-size: var(--HR-sz-18);
+                    line-height: var(--HR-sz-28);
+                    font-family: var(--HR-fw-400);
+                }
+            }
+
+            /* ============[ Card Link]============ */
+            .hr-Link {
+                font-size: var(--HR-sz-18);
+                line-height: var(--HR-sz-22);
+
+                span {
+                    margin-left: var(--HR-sz-5);
+                }
+
+                a {
+                    font-size: var(--HR-sz-18);
+                    line-height: var(--HR-sz-22);
+
+                    span {
+                        margin-left: var(--HR-sz-5);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* =====================[ Theme Services Card End ]===================== */

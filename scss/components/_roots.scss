@@ -1,0 +1,68 @@
+/* =====================[ Roots Start ]===================== */
+:root {
+    --HR-per: %;
+
+    /* =====================[ Theme Size Start ]===================== */
+    @for $i from 0 through 300 {
+        --HR-sz-#{$i}: #{$i}px;
+    }
+
+    /* =========[ Percentage ]========= */
+    @for $i from 0 through 100 {
+        --HR-per-#{$i}: #{$i}%;
+    }
+
+    /* =========[ View Height ]========= */
+    @for $i from 0 through 100 {
+        --HR-vh-#{$i}: #{$i}vh;
+    }
+
+    /* =========[ View Width ]========= */
+    @for $i from 0 through 100 {
+        --HR-vw-#{$i}: #{$i}vw;
+    }
+
+    /* =====================[ Theme Size End ]===================== */
+
+    /* =====================[ Theme Font Weight start ]===================== */
+    --HR-fw-100: 100;
+    --HR-fw-200: 200;
+    --HR-fw-300: 300;
+    --HR-fw-400: 400;
+    --HR-fw-500: 500;
+    --HR-fw-600: 600;
+    --HR-fw-700: 700;
+    --HR-fw-800: 800;
+    --HR-fw-900: 900;
+    /* =====================[ Theme Font Weight End ]===================== */
+
+    /* =====================[ Theme Deg 0 to 360 Start ]=====================*/
+    @for $i from 0 through 360 {
+        --HR-deg-#{$i}: #{$i}deg;
+    }
+
+    /* =====================[ Theme Deg 0 to 360 End ]===================== */
+
+    /* =====================[ Theme Font Style Start ]===================== */
+    --HR-st-normal: normal;
+    --HR-st-italic: italic;
+    --HR-st-oblique: oblique;
+
+    /* =========[ Theme Font Style Oblique with Degree ]=========*/
+    @for $i from 0 through 360 {
+        --HR-st-oblique-#{$i}-deg: oblique var(--HR-deg-#{$i});
+    }
+
+    /* =====================[ Theme Font Style End ]===================== */
+
+    /* =====================[ Breakpoints Start ]===================== */
+    --Hr-xxl: 1400px;
+    --Hr-xl: 1200px;
+    --Hr-lg: 992px;
+    --Hr-md: 768px;
+    --Hr-sm: 576px;
+    --Hr-no: 0px;
+    /* =====================[ Breakpoints End ]===================== */
+}
+
+/* =====================[ Roots End ]===================== */

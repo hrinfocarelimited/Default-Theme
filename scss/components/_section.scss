@@ -1,0 +1,885 @@
+/* =====================[ Theme Section Start ]===================== */
+/* =====================[ Theme Section Head Start ]===================== */
+.hr-section-head {
+    margin-bottom: var(--HR-sz-50);
+
+    .hr-sub-titel {
+        margin-bottom: var(--HR-sz-5);
+
+        span {
+            font-size: var(--HR-sz-22);
+            font-weight: var(--HR-fw-500);
+            color: gray;
+        }
+    }
+
+    .hr-titel {
+        margin-bottom: var(--HR-sz-15);
+
+        h3 {
+            font-size: var(--HR-sz-43);
+            line-height: var(--HR-sz-52);
+            font-weight: var(--HR-fw-500);
+            color: #000;
+        }
+    }
+
+    .hr-dec {
+        p {
+            font-size: var(--HR-sz-18);
+            line-height: var(--HR-sz-21);
+            font-family: var(--HR-fw-400);
+            color: gray;
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: var(--HR-sz-0);
+            }
+        }
+    }
+}
+
+.hr-section-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hr-section-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.hr-section-content {
+    .hr-sub-titel {
+        margin-bottom: var(--HR-sz-5);
+
+        span {
+            font-size: var(--HR-sz-22);
+            font-weight: var(--HR-fw-500);
+            color: gray;
+        }
+    }
+
+    .hr-titel {
+        margin-bottom: var(--HR-sz-15);
+
+        h3 {
+            font-size: var(--HR-sz-43);
+            line-height: var(--HR-sz-52);
+            font-weight: var(--HR-fw-500);
+            color: #000;
+        }
+    }
+
+    .hr-dec {
+        p {
+            font-size: var(--HR-sz-18);
+            line-height: var(--HR-sz-21);
+            font-family: var(--HR-fw-400);
+            color: gray;
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: var(--HR-sz-0);
+            }
+        }
+    }
+
+    .hr-btn-group {
+        margin-top: 30px;
+    }
+}
+
+.hr-icon-head {
+    display: flex;
+    align-items: center;
+
+    .hr-icon {
+        margin-right: var(--HR-sz-30);
+    }
+}
+
+.hr-section-bg-wrap {
+    width: var(--HR-per-100);
+    height: var(--HR-per-100);
+    position: relative;
+
+    .hr-section-bg-img {
+        width: var(--HR-per-100);
+        height: var(--HR-per-100);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.hr-sc-divider {
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+    border-left: none;
+    border-right: none;
+}
+
+/* =====================[ Theme Section Head End ]===================== */
+/* =====================[ Theme Breakpoints ]===================== */
+// $breakpoints: (
+//     xxl,
+//     xl,
+//     lg,
+//     md,
+//     sm,
+//     no
+// );
+
+/* =====================[ Theme Function to get the Breakpoint Value]===================== */
+// @function breakpoint-value($breakpoint) {
+//     @return var(--Hr-#{$breakpoint});
+// }
+
+/* =====================[ Theme Margin Padding ]===================== */
+// @each $breakpoint in $breakpoints {
+//     @for $i from 1 through 300 {
+
+/* =====================[ Theme Non-responsive Margin Padding px ]===================== */
+//     .hr-sc-m-sz-#{$i} {
+//         margin: #{$i}px;
+//     }
+
+//     .hr-sc-ms-sz-#{$i} {
+//         margin-left: #{$i}px;
+//     }
+
+//     .hr-sc-me-sz-#{$i} {
+//         margin-right: #{$i}px;
+//     }
+
+//     .hr-sc-mt-sz-#{$i} {
+//         margin-top: #{$i}px;
+//     }
+
+//     .hr-sc-mb-sz-#{$i} {
+//         margin-bottom: #{$i}px;
+//     }
+
+//     .hr-sc-mx-sz-#{$i} {
+//         margin-left: #{$i}px;
+//         margin-right: #{$i}px;
+//     }
+
+//     .hr-sc-my-sz-#{$i} {
+//         margin-top: #{$i}px;
+//         margin-bottom: #{$i}px;
+//     }
+
+//     .hr-sc-p-sz-#{$i} {
+//         padding: #{$i}px;
+//     }
+
+//     .hr-sc-ps-sz-#{$i} {
+//         padding-left: #{$i}px;
+//     }
+
+//     .hr-sc-pe-sz-#{$i} {
+//         padding-right: #{$i}px;
+//     }
+
+//     .hr-sc-pt-sz-#{$i} {
+//         padding-top: #{$i}px;
+//     }
+
+//     .hr-sc-pb-sz-#{$i} {
+//         padding-bottom: #{$i}px;
+//     }
+
+//     .hr-sc-px-sz-#{$i} {
+//         padding-left: #{$i}px;
+//         padding-right: #{$i}px;
+//     }
+
+//     .hr-sc-py-sz-#{$i} {
+//         padding-top: #{$i}px;
+//         padding-bottom: #{$i}px;
+//     }
+// }
+
+// @for $i from 1 through 100 {
+
+/* =====================[ Theme Non-responsive Margin Padding vh ]===================== */
+// .hr-sc-m-vh-#{$i} {
+//     margin: #{$i}vh;
+// }
+
+// .hr-sc-ms-vh-#{$i} {
+//     margin-left: #{$i}vh;
+// }
+
+// .hr-sc-me-vh-#{$i} {
+//     margin-right: #{$i}vh;
+// }
+
+// .hr-sc-mt-vh-#{$i} {
+//     margin-top: #{$i}vh;
+// }
+
+// .hr-sc-mb-vh-#{$i} {
+//     margin-bottom: #{$i}vh;
+// }
+
+// .hr-sc-mx-vh-#{$i} {
+//     margin-left: #{$i}vh;
+//     margin-right: #{$i}vh;
+// }
+
+// .hr-sc-my-vh-#{$i} {
+//     margin-top: #{$i}vh;
+//     margin-bottom: #{$i}vh;
+// }
+
+// .hr-sc-p-vh-#{$i} {
+//     padding: #{$i}vh;
+// }
+
+// .hr-sc-ps-vh-#{$i} {
+//     padding-left: #{$i}vh;
+// }
+
+// .hr-sc-pe-vh-#{$i} {
+//     padding-right: #{$i}vh;
+// }
+
+// .hr-sc-pt-vh-#{$i} {
+//     padding-top: #{$i}vh;
+// }
+
+// .hr-sc-pb-vh-#{$i} {
+//     padding-bottom: #{$i}vh;
+// }
+
+// .hr-sc-px-vh-#{$i} {
+//     padding-left: #{$i}vh;
+//     padding-right: #{$i}vh;
+// }
+
+// .hr-sc-py-vh-#{$i} {
+//     padding-top: #{$i}vh;
+//     padding-bottom: #{$i}vh;
+// }
+
+/* =====================[ Theme Non-responsive Margin Padding vw ]===================== */
+// .hr-sc-m-vw-#{$i} {
+//     margin: #{$i}vw;
+// }
+
+// .hr-sc-ms-vw-#{$i} {
+//     margin-left: #{$i}vw;
+// }
+
+// .hr-sc-me-vw-#{$i} {
+//     margin-right: #{$i}vw;
+// }
+
+// .hr-sc-mt-vw-#{$i} {
+//     margin-top: #{$i}vw;
+// }
+
+// .hr-sc-mb-vw-#{$i} {
+//     margin-bottom: #{$i}vw;
+// }
+
+// .hr-sc-mx-vw-#{$i} {
+//     margin-left: #{$i}vw;
+//     margin-right: #{$i}vw;
+// }
+
+// .hr-sc-my-vw-#{$i} {
+//     margin-top: #{$i}vw;
+//     margin-bottom: #{$i}vw;
+// }
+
+// .hr-sc-p-vw-#{$i} {
+//     padding: #{$i}vw;
+// }
+
+// .hr-sc-ps-vw-#{$i} {
+//     padding-left: #{$i}vw;
+// }
+
+// .hr-sc-pe-vw-#{$i} {
+//     padding-right: #{$i}vw;
+// }
+
+// .hr-sc-pt-vw-#{$i} {
+//     padding-top: #{$i}vw;
+// }
+
+// .hr-sc-pb-vw-#{$i} {
+//     padding-bottom: #{$i}vw;
+// }
+
+// .hr-sc-px-vw-#{$i} {
+//     padding-left: #{$i}vw;
+//     padding-right: #{$i}vw;
+// }
+
+// .hr-sc-py-vw-#{$i} {
+//     padding-top: #{$i}vw;
+//     padding-bottom: #{$i}vw;
+// }
+
+/* =====================[ Theme Non-responsive Margin Padding % ]===================== */
+//     .hr-sc-m-per-#{$i} {
+//         margin: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-ms-per-#{$i} {
+//         margin-left: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-me-per-#{$i} {
+//         margin-right: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-mt-per-#{$i} {
+//         margin-top: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-mb-per-#{$i} {
+//         margin-bottom: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-mx-per-#{$i} {
+//         margin-left: var(--HR-per-#{$i});
+//         margin-right: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-my-per-#{$i} {
+//         margin-top: var(--HR-per-#{$i});
+//         margin-bottom: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-p-per-#{$i} {
+//         padding: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-ps-per-#{$i} {
+//         padding-left: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-pe-per-#{$i} {
+//         padding-right: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-pt-per-#{$i} {
+//         padding-top: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-pb-per-#{$i} {
+//         padding-bottom: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-px-per-#{$i} {
+//         padding-left: var(--HR-per-#{$i});
+//         padding-right: var(--HR-per-#{$i});
+//     }
+
+//     .hr-sc-py-per-#{$i} {
+//         padding-top: var(--HR-per-#{$i});
+//         padding-bottom: var(--HR-per-#{$i});
+//     }
+// }
+
+// @for $i from 1 through 300 {
+
+/* =====================[ Theme Responsive Margin Padding px ]===================== */
+//     .hr-sc-m-#{$breakpoint}-sz-#{$i} {
+//         margin: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             margin: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-ms-#{$breakpoint}-sz-#{$i} {
+//         margin-left: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             margin-left: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-me-#{$breakpoint}-sz-#{$i} {
+//         margin-right: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             margin-right: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-mt-#{$breakpoint}-sz-#{$i} {
+//         margin-top: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             margin-top: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-mb-#{$breakpoint}-sz-#{$i} {
+//         margin-bottom: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             margin-bottom: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-mx-#{$breakpoint}-sz-#{$i} {
+//         margin-left: #{$i}px;
+//         margin-right: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             margin-left: calc(#{$i}px / 2) !important;
+//             margin-right: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-my-#{$breakpoint}-sz-#{$i} {
+//         margin-top: #{$i}px;
+//         margin-bottom: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             margin-top: calc(#{$i}px / 2) !important;
+//             margin-bottom: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-p-#{$breakpoint}-sz-#{$i} {
+//         padding: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             padding: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-ps-#{$breakpoint}-sz-#{$i} {
+//         padding-left: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             padding-left: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-pe-#{$breakpoint}-sz-#{$i} {
+//         padding-right: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             padding-right: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-pt-#{$breakpoint}-sz-#{$i} {
+//         padding-top: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             padding-top: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-pb-#{$breakpoint}-sz-#{$i} {
+//         padding-bottom: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             padding-bottom: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-px-#{$breakpoint}-sz-#{$i} {
+//         padding-left: #{$i}px;
+//         padding-right: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             padding-left: calc(#{$i}px / 2) !important;
+//             padding-right: calc(#{$i}px / 2) !important;
+//         }
+//     }
+
+//     .hr-sc-py-#{$breakpoint}-sz-#{$i} {
+//         padding-top: #{$i}px;
+//         padding-bottom: #{$i}px;
+
+//         @include media-breakpoint-down($breakpoint) {
+//             padding-top: calc(#{$i}px / 2) !important;
+//             padding-bottom: calc(#{$i}px / 2) !important;
+//         }
+//     }
+// }
+
+// @for $i from 1 through 100 {
+
+/* =====================[ Theme Responsive Margin Padding vh ]===================== */
+// .hr-sc-m-#{$breakpoint}-vh-#{$i} {
+//     margin: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-ms-#{$breakpoint}-vh-#{$i} {
+//     margin-left: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-left: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-me-#{$breakpoint}-vh-#{$i} {
+//     margin-right: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-right: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-mt-#{$breakpoint}-vh-#{$i} {
+//     margin-top: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-top: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-mb-#{$breakpoint}-vh-#{$i} {
+//     margin-bottom: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-bottom: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-mx-#{$breakpoint}-vh-#{$i} {
+//     margin-left: #{$i}vh;
+//     margin-right: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-left: calc(#{$i}vh / 2) !important;
+//         margin-right: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-my-#{$breakpoint}-vh-#{$i} {
+//     margin-top: #{$i}vh;
+//     margin-bottom: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-top: calc(#{$i}vh / 2) !important;
+//         margin-bottom: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-p-#{$breakpoint}-vh-#{$i} {
+//     padding: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-ps-#{$breakpoint}-vh-#{$i} {
+//     padding-left: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-left: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-pe-#{$breakpoint}-vh-#{$i} {
+//     padding-right: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-right: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-pt-#{$breakpoint}-vh-#{$i} {
+//     padding-top: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-top: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-pb-#{$breakpoint}-vh-#{$i} {
+//     padding-bottom: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-bottom: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-px-#{$breakpoint}-vh-#{$i} {
+//     padding-left: #{$i}vh;
+//     padding-right: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-left: calc(#{$i}vh / 2) !important;
+//         padding-right: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// .hr-sc-py-#{$breakpoint}-vh-#{$i} {
+//     padding-top: #{$i}vh;
+//     padding-bottom: #{$i}vh;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-top: calc(#{$i}vh / 2) !important;
+//         padding-bottom: calc(#{$i}vh / 2) !important;
+//     }
+// }
+
+// /* =====================[ Theme Responsive Margin Padding vw ]===================== */
+// .hr-sc-m-#{$breakpoint}-vw-#{$i} {
+//     margin: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-ms-#{$breakpoint}-vw-#{$i} {
+//     margin-left: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-left: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-me-#{$breakpoint}-vw-#{$i} {
+//     margin-right: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-right: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-mt-#{$breakpoint}-vw-#{$i} {
+//     margin-top: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-top: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-mb-#{$breakpoint}-vw-#{$i} {
+//     margin-bottom: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-bottom: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-mx-#{$breakpoint}-vw-#{$i} {
+//     margin-left: #{$i}vw;
+//     margin-right: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-left: calc(#{$i}vw / 2) !important;
+//         margin-right: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-my-#{$breakpoint}-vw-#{$i} {
+//     margin-top: #{$i}vw;
+//     margin-bottom: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         margin-top: calc(#{$i}vw / 2) !important;
+//         margin-bottom: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-p-#{$breakpoint}-vw-#{$i} {
+//     padding: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-ps-#{$breakpoint}-vw-#{$i} {
+//     padding-left: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-left: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-pe-#{$breakpoint}-vw-#{$i} {
+//     padding-right: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-right: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-pt-#{$breakpoint}-vw-#{$i} {
+//     padding-top: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-top: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-pb-#{$breakpoint}-vw-#{$i} {
+//     padding-bottom: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-bottom: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-px-#{$breakpoint}-vw-#{$i} {
+//     padding-left: #{$i}vw;
+//     padding-right: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-left: calc(#{$i}vw / 2) !important;
+//         padding-right: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+// .hr-sc-py-#{$breakpoint}-vw-#{$i} {
+//     padding-top: #{$i}vw;
+//     padding-bottom: #{$i}vw;
+
+//     @include media-breakpoint-down($breakpoint) {
+//         padding-top: calc(#{$i}vw / 2) !important;
+//         padding-bottom: calc(#{$i}vw / 2) !important;
+//     }
+// }
+
+/* =====================[ Theme Responsive Margin Padding % ]===================== */
+//         .hr-sc-m-#{$breakpoint}-per-#{$i} {
+//             margin: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 margin: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-ms-#{$breakpoint}-per-#{$i} {
+//             margin-left: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 margin-left: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-me-#{$breakpoint}-per-#{$i} {
+//             margin-right: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 margin-right: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-mt-#{$breakpoint}-per-#{$i} {
+//             margin-top: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 margin-top: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-mb-#{$breakpoint}-per-#{$i} {
+//             margin-bottom: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 margin-bottom: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-mx-#{$breakpoint}-per-#{$i} {
+//             margin-left: var(--HR-per-#{$i});
+//             margin-right: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 margin-left: var(--HR-per-#{$i}) !important;
+//                 margin-right: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-my-#{$breakpoint}-per-#{$i} {
+//             margin-top: var(--HR-per-#{$i});
+//             margin-bottom: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 margin-top: var(--HR-per-#{$i}) !important;
+//                 margin-bottom: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-p-#{$breakpoint}-per-#{$i} {
+//             padding: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 padding: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-ps-#{$breakpoint}-per-#{$i} {
+//             padding-left: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 padding-left: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-pe-#{$breakpoint}-per-#{$i} {
+//             padding-right: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 padding-right: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-pt-#{$breakpoint}-per-#{$i} {
+//             padding-top: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 padding-top: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-pb-#{$breakpoint}-per-#{$i} {
+//             padding-bottom: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 padding-bottom: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-px-#{$breakpoint}-per-#{$i} {
+//             padding-left: var(--HR-per-#{$i});
+//             padding-right: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 padding-left: var(--HR-per-#{$i}) !important;
+//                 padding-right: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+
+//         .hr-sc-py-#{$breakpoint}-per-#{$i} {
+//             padding-top: var(--HR-per-#{$i});
+//             padding-bottom: var(--HR-per-#{$i});
+
+//             @include media-breakpoint-down($breakpoint) {
+//                 padding-top: var(--HR-per-#{$i}) !important;
+//                 padding-bottom: var(--HR-per-#{$i}) !important;
+//             }
+//         }
+//     }
+// }
+
+/* =====================[ Theme Section End ]===================== */

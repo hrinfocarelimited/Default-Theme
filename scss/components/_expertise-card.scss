@@ -1,0 +1,237 @@
+/* =====================[ Theme Expertise Card Start ]===================== */
+.hr-expertise-card {
+    display: block;
+    border-radius: var(--HR-sz-8);
+    margin-bottom: var(--HR-sz-25);
+    height: calc(var(--HR-per-100) - var(--HR-sz-25));
+    box-shadow: var(--HR-sz-0) var(--HR-sz-4) var(--HR-sz-8) rgb(0 0 0 / 8%);
+    position: relative;
+
+    .hr-thumbnail {
+        position: relative;
+        height: var(--HR-sz-250);
+        width: var(--HR-per-100);
+        border-radius: var(--HR-sz-9) var(--HR-sz-9) var(--HR-sz-0) var(--HR-sz-0);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    /* ============[ Card Body ]============ */
+    .hr-expertise-card-body {
+        width: var(--HR-per-100);
+        height: var(--HR-per-100);
+        padding: var(--HR-sz-15);
+        position: relative;
+
+        .hr-expertise-over-play {
+            position: absolute;
+            top: calc(var(--HR-sz-0) - var(--HR-sz-30));
+            right: calc(var(--HR-sz-0) + var(--HR-sz-15));
+            width: var(--HR-sz-60);
+            height: var(--HR-sz-60);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+            border-radius: var(--HR-per-50);
+
+            span {
+                font-size: var(--HR-sz-18);
+                margin-left: var(--HR-sz-5);
+            }
+        }
+
+        .hr-expertise-partner {
+            img {
+                width: var(--HR-per-100);
+                height: auto;
+            }
+        }
+
+        /* ============[ Titel ]============ */
+        .hr-titel {
+            margin-bottom: var(--HR-sz-20);
+
+            h4 {
+                font-size: var(--HR-sz-26);
+                margin-bottom: var(--HR-sz-0);
+            }
+        }
+
+        /* ============[ DEC ]============ */
+        .hr-dec {
+            font-size: var(--HR-sz-16);
+            color: gray;
+
+            p {
+                font-size: var(--HR-sz-16);
+                color: gray;
+                margin-bottom: var(--HR-sz-10);
+
+                &:last-child {
+                    margin-bottom: var(--HR-sz-0);
+                }
+            }
+        }
+
+        /* ============[ Icon ]============ */
+        .hr-expertise-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: auto;
+                height: var(--HR-sz-85);
+            }
+        }
+
+        /* ============[ Image Icon ]============ */
+        .hr-expertise-img-icon {
+            margin-bottom: var(--HR-sz-15);
+
+            img {
+                width: var(--HR-sz-100);
+                height: var(--HR-sz-100);
+            }
+        }
+
+        /* ============[ Content ]============ */
+        .hr-expertise-over-content {
+            opacity: 0;
+            position: absolute;
+            width: var(--HR-per-100);
+            height: var(--HR-per-100);
+            top: var(--HR-sz-0);
+            left: var(--HR-sz-0);
+            border-radius: var(--HR-sz-8);
+            background: rgb(0 0 0 / 20%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                font-weight: var(--HR-fw-600);
+                font-size: var(--HR-sz-25);
+            }
+        }
+
+    }
+
+    /* ============[ Hover Over Content]============ */
+    &:hover {
+        .hr-expertise-card-body {
+            .hr-expertise-over-content {
+                opacity: 1;
+            }
+        }
+
+        .hr-expertise-over-content {
+            opacity: 1;
+        }
+    }
+
+    .hr-expertise-over-content {
+        position: absolute;
+        top: var(--HR-sz-0);
+        left: var(--HR-sz-0);
+        width: var(--HR-per-100);
+        height: var(--HR-per-100);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.3058823529);
+        border-radius: var(--HR-sz-8);
+        opacity: 0;
+
+        .hr-expertise-card-body {
+            height: fit-content;
+
+            .hr-titel {
+                font-weight: var(--HR-fw-700);
+                line-height: var(--HR-sz-33);
+                font-size: var(--HR-sz-24);
+                margin-bottom: var(--HR-sz-15);
+
+                h5 {
+                    font-weight: var(--HR-fw-700);
+                    line-height: var(--HR-sz-33);
+                    font-size: var(--HR-sz-24);
+                    margin-bottom: var(--HR-sz-0);
+                }
+            }
+        }
+    }
+}
+
+.hr-nav-expertise-card {
+    display: block;
+    border-radius: var(--HR-sz-8);
+    margin-bottom: var(--HR-sz-25);
+    height: calc(var(--HR-per-100) - var(--HR-sz-25));
+    box-shadow: var(--HR-sz-0) var(--HR-sz-4) var(--HR-sz-8) rgb(0 0 0 / 8%);
+
+    /* ============[ Card Body ]============ */
+    .hr-expertise-card-body {
+        width: var(--HR-per-100);
+        height: var(--HR-per-100);
+        padding: var(--HR-sz-15) var(--HR-sz-0);
+        position: relative;
+
+        /* ============[ Titel ]============ */
+        .hr-titel {
+            margin-bottom: var(--HR-sz-20);
+
+            h4 {
+                font-size: var(--HR-sz-26);
+                margin-bottom: var(--HR-sz-0);
+            }
+        }
+
+        /* ============[ Nav ]============ */
+        .nav {
+            .nav-item {
+                .hr-contact-item {
+                    display: flex;
+                    align-items: start;
+
+                    .hr-icon {
+                        width: var(--HR-sz-20);
+                        height: var(--HR-sz-20);
+                        margin-right: var(--HR-sz-12);
+                    }
+
+                    .hr-contact-info {
+                        width: calc(var(--HR-per-100) - var(--HR-sz-32));
+
+                        span {
+                            font-size: var(--HR-sz-18);
+                            font-weight: var(--HR-fw-400);
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ============[ DEC ]============ */
+        .hr-dec {
+            font-size: var(--HR-sz-16);
+            color: gray;
+
+            p {
+                font-size: var(--HR-sz-16);
+                color: gray;
+                margin-bottom: var(--HR-sz-10);
+
+                &:last-child {
+                    margin-bottom: var(--HR-sz-0);
+                }
+            }
+        }
+    }
+}
+
+/* =====================[ Theme Expertise Card End ]===================== */

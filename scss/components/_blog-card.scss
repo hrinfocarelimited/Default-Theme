@@ -1,0 +1,98 @@
+/* =====================[ Theme Blog Start ]===================== */
+.hr-blog-card {
+    border-radius: var(--HR-sz-10);
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+    height: calc(var(--HR-per-100) - var(--HR-sz-25));
+    margin-bottom: var(--HR-sz-25);
+
+    /* ============[ Blog Full Thumbnail ]============ */
+    .hr-blog-thumbnail {
+        position: relative;
+        height: var(--HR-sz-250);
+        width: var(--HR-per-100);
+        border-radius: var(--HR-sz-9) var(--HR-sz-9) var(--HR-sz-0) var(--HR-sz-0);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        /* ============[ Blog Tumbnail over Time Stemp ]============ */
+        .hr-blog-stemp {
+            position: absolute;
+            padding: var(--HR-sz-10) var(--HR-sz-15);
+            background: #fff;
+            border-radius: var(--HR-sz-5);
+            top: var(--HR-sz-15);
+            right: var(--HR-sz-15);
+        }
+    }
+
+    /* ============[ Blog Card Body ]============ */
+    .hr-blog-card-body {
+        padding: var(--HR-sz-24) var(--HR-sz-24);
+
+        /* ============[ Blog Content ]============ */
+        .hr-blog-content {
+
+            /* ============[ Titel ]============ */
+            .hr-titel {
+                font-size: var(--HR-sz-26);
+                line-height: var(--HR-sz-30);
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+
+                h3 {
+                    font-size: var(--HR-sz-26);
+                    line-height: var(--HR-sz-30);
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                }
+
+                a {
+                    font-size: var(--HR-sz-26);
+                    line-height: var(--HR-sz-30);
+
+                    h3 {
+                        font-size: var(--HR-sz-26);
+                        line-height: var(--HR-sz-30);
+                    }
+                }
+            }
+
+            /* ============[ Dec ]============ */
+            .hr-dec {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                font-size: var(--HR-sz-18);
+                line-height: var(--HR-sz-28);
+                font-family: var(--HR-fw-400);
+
+                p {
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    font-size: var(--HR-sz-18);
+                    line-height: var(--HR-sz-28);
+                    font-family: var(--HR-fw-400);
+                }
+            }
+
+            /* ============[ Link ]============ */
+            .hr-link {
+                width: fit-content;
+
+                a {
+                    width: fit-content;
+                }
+            }
+        }
+    }
+}
+
+/* =====================[ Theme Blog End ]===================== */

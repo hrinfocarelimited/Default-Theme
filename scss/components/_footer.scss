@@ -1,0 +1,173 @@
+/* =====================[ Theme Footer Start ]===================== */
+.hr-footer {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* ============[ Marquee Card ]============ */
+    .hr-main-footer {
+        padding-top: var(--HR-sz-60);
+        padding-bottom: var(--HR-sz-40);
+
+        /* ============[ Footer About Wrap ]============ */
+        .hr-footer-about {
+
+            /* ============[ Footer Brand ]============ */
+            .hr-brand {
+                margin-bottom: var(--HR-sz-15);
+
+                .hr-brand-link {
+                    img {
+                        width: auto;
+                        height: var(--HR-sz-48);
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            /* ============[ Footer About ]============ */
+            .hr-about {
+                font-size: var(--HR-sz-18);
+                line-height: var(--HR-sz-28);
+
+                p {
+                    margin-bottom: var(--HR-sz-0);
+                    font-size: var(--HR-sz-18);
+                    line-height: var(--HR-sz-28);
+                }
+            }
+
+            /* ============[ Footer Social ]============ */
+            .hr-social {
+                margin-top: var(--HR-sz-15);
+
+                .nav {
+                    .nav-item {
+                        margin-right: var(--HR-sz-10);
+
+                        .nav-link {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+                            border-radius: var(--HR-per-50);
+                            width: var(--HR-sz-40);
+                            height: var(--HR-sz-40);
+                            padding: var(--HR-sz-0);
+                            font-size: var(--HR-sz-18);
+
+                            span {
+                                font-size: var(--HR-sz-16);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /* ============[ Footer Nav ]============ */
+        .hr-footer-nav {
+
+            /* ============[ Footer Nav Titel ]============ */
+            .hr-titel {
+                margin-bottom: var(--HR-sz-20);
+
+                h4 {
+                    font-size: var(--HR-sz-26);
+                    margin-bottom: var(--HR-sz-0);
+                }
+            }
+
+            /* ============[ Footer Nav Items ]============ */
+            .hr-nav {
+                .nav {
+                    .nav-item {
+                        margin-bottom: var(--HR-sz-12);
+
+                        &:last-child {
+                            margin-bottom: var(--HR-sz-0);
+                        }
+
+                        .nav-link {
+                            padding: var(--HR-sz-0);
+                        }
+
+                        .hr-contact-item {
+                            display: flex;
+                            align-items: start;
+
+                            .hr-icon {
+                                width: var(--HR-sz-20);
+                                height: var(--HR-sz-20);
+                                margin-right: var(--HR-sz-12);
+                            }
+
+                            .hr-contact-info {
+                                width: calc(var(--HR-per-100) - var(--HR-sz-32));
+
+                                span {
+                                    font-size: var(--HR-sz-18);
+                                    font-weight: var(--HR-fw-400);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            /* ============[ auto Icon Items ]============ */
+            .hr-auto-nav-icon {
+                .nav {
+                    .nav-item {
+                        .nav-link {
+                            padding-left: var(--HR-sz-20);
+                            position: relative;
+
+                            &::before {
+                                position: absolute;
+                                content: '';
+                                width: var(--HR-sz-12);
+                                height: var(--HR-sz-2);
+                                background: rgba(0, 0, 0, 30%);
+                                top: calc(var(--HR-per-50) - var(--HR-sz-1));
+                                left: var(--HR-per-0);
+                            }
+
+                            &:hover {
+                                padding-left: var(--HR-sz-26);
+
+                                &::before {
+                                    width: var(--HR-sz-16);
+                                    height: var(--HR-sz-2);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* ============[ Copyright ]============ */
+
+    .hr-copyright {
+        border-top: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+        padding-top: var(--HR-sz-15);
+        padding-bottom: var(--HR-sz-15);
+
+        p {
+            margin-bottom: var(--HR-sz-0);
+        }
+    }
+
+    /* ============[ Copyright EndToEnd ]============ */
+    .hr-copyright-endtoend {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+/* =====================[ Theme Footer End ]===================== */

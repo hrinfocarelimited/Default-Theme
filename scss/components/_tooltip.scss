@@ -1,0 +1,109 @@
+/* =====================[ Tooltip Start ]===================== */
+/* Base button style */
+.hr-tooltip {
+    position: relative;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    border: none;
+    border-radius: var(--HR-sz-5);
+    font-size: var(--HR-sz-16);
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.8);
+
+    /* Tooltip container (hidden by default) */
+    &::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        background-color: rgba(0, 0, 0, 1);
+        color: rgba(255, 255, 255, 1);
+        padding: var(--HR-sz-5) var(--HR-sz-10);
+        border-radius: var(--HR-sz-5);
+        font-size: var(--HR-sz-14);
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        z-index: 10;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        border-width: var(--HR-sz-5);
+        border-style: solid;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        z-index: 10;
+    }
+
+    /* Show tooltip on hover */
+    &:hover {
+
+        &::after,
+        &::before {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+
+/* ========== Tooltip on Top ========== */
+.hr-tooltip-top::after {
+    bottom: 120%;
+    left: var(--HR-per-50);
+    transform: translateX(calc(var(--HR-per-0) - var(--HR-per-50)));
+}
+
+.hr-tooltip-top::before {
+    bottom: var(--HR-per-100);
+    left: var(--HR-per-50);
+    transform: translateX(calc(var(--HR-per-0) - var(--HR-per-50)));
+    border-color: rgba(0, 0, 0, 1) transparent transparent transparent;
+}
+
+/* ========== Tooltip on Right ========== */
+.hr-tooltip-right::after {
+    top: var(--HR-per-50);
+    left: calc(var(-HR-per-100) + var(--HR-sz-10));
+    transform: translateY(calc(var(--HR-per-0) - var(--HR-per-50)));
+}
+
+.hr-tooltip-right::before {
+    top: var(--HR-per-50);
+    right: calc(var(--HR-sz-0) - var(--HR-sz-10));
+    transform: translateY(calc(var(--HR-per-0) - var(--HR-per-50)));
+    border-color: transparent rgba(0, 0, 0, 1) transparent transparent;
+}
+
+/* ========== Tooltip on Bottom ========== */
+.hr-tooltip-bottom::after {
+    top: 120%;
+    left: var(--HR-per-50);
+    transform: translateX(calc(var(--HR-per-0) - var(--HR-per-50)));
+}
+
+.hr-tooltip-bottom::before {
+    top: var(--HR-per-100);
+    left: var(--HR-per-50);
+    transform: translateX(calc(var(--HR-per-0) - var(--HR-per-50)));
+    border-color: transparent transparent rgba(0, 0, 0, 1) transparent;
+}
+
+/* ========== Tooltip on Left ========== */
+.hr-tooltip-left::after {
+    top: var(--HR-per-50);
+    right: calc(var(--HR-per-100) + var(--HR-sz-10));
+    transform: translateY(calc(var(--HR-per-0) - var(--HR-per-50)));
+}
+
+.hr-tooltip-left::before {
+    top: 50%;
+    left: calc(var(--HR-sz-0) - var(--HR-sz-10));
+    transform: translateY(calc(var(--HR-per-0) - var(--HR-per-50)));
+    border-color: transparent transparent transparent rgba(0, 0, 0, 1);
+}
+
+/* =====================[ Tooltip End ]===================== */

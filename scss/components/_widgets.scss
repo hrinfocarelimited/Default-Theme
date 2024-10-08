@@ -1,0 +1,293 @@
+/* ============[ Widget Start ]============ */
+/* =======[ Transparent Widget Start ]======= */
+.hr-widget-transparent {
+    border-radius: var(--HR-sz-8);
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+    margin-bottom: var(--HR-sz-25);
+
+    /* =======[ Widget Content ]======= */
+    .hr-widget-content {
+        padding: var(--HR-sz-40) var(--HR-sz-24);
+
+        /* =======[ Widget Titel ]======= */
+        h4 {
+            font-size: var(--HR-sz-26);
+            line-height: var(--HR-sz-30);
+
+            span {
+                font-size: var(--HR-sz-26);
+                line-height: var(--HR-sz-30);
+            }
+        }
+
+        /* =======[ Widget Text ]======= */
+        p {
+            font-size: var(--HR-sz-18);
+            line-height: var(--HR-sz-28);
+            font-family: var(--HR-fw-400);
+
+            &:last-child {
+                margin-bottom: var(--HR-sz-0);
+            }
+        }
+    }
+}
+
+/* =======[ Transparent Widget End ]======= */
+/* =======[ List Widget Start ]======= */
+.hr-list-widget {
+    border-radius: var(--HR-sz-10);
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+    margin-bottom: var(--HR-sz-25);
+
+    /* =======[ Head ]======= */
+    .hr-widget-head {
+        padding: var(--HR-sz-10) var(--HR-sz-20);
+        border-bottom: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+
+        /* =======[ Titel ]======= */
+        .hr-titel {
+            h5 {
+                margin-bottom: var(--HR-sz-0);
+            }
+        }
+    }
+
+    /* =======[ Body ]======= */
+    .hr-widget-body {
+        padding: var(--HR-sz-20) var(--HR-sz-20);
+
+        /* =======[ Nav ]======= */
+        .nav {
+            .nav-item {
+                margin-bottom: var(--HR-sz-10);
+
+                &:last-child {
+                    margin-bottom: var(--HR-sz-0);
+                }
+
+                .nav-link {
+                    padding: var(--HR-sz-0);
+
+                    /* =======[ Simple Nav ]======= */
+                    .hr-simple-nav {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+
+                    /* =======[ Thumb Nav ]======= */
+                    .hr-thumb-nav {
+                        display: flex;
+                        align-items: center;
+
+                        .hr-thumb {
+                            width: var(--HR-sz-100);
+                            height: var(--HR-sz-60);
+                            margin-right: var(--HR-sz-15);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            border-radius: var(--HR-sz-8);
+                        }
+
+                        /* =======[ Info ]======= */
+                        .hr-info {
+                            width: calc(var(--HR-per-100) - var(--HR-sz-115));
+
+                            .hr-post-stemp {
+                                display: flex;
+                                align-items: center;
+
+                                span {
+                                    display: inline-block;
+                                }
+
+                                .hr-stemp {
+                                    margin-left: var(--HR-sz-8);
+                                }
+                            }
+
+                            /* =======[ Titel ]======= */
+                            .hr-titel {
+                                overflow: hidden;
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                -webkit-line-clamp: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* =======[ List Widget End ]======= */
+
+/* =======[ More Images Widget Start ]======= */
+.hr-more-images-widget {
+    margin-bottom: var(--HR-sz-25);
+
+    /* =======[ Card ]======= */
+    .hr-images-bg-card {
+        border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+        border-radius: var(--HR-sz-10);
+        width: var(--HR-per-100);
+        height: 180px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        /* =======[ Card Hover ]======= */
+        .hr-hover-plus {
+            background: rgba(0, 0, 0, 0.3058823529);
+            width: var(--HR-per-100);
+            height: var(--HR-per-100);
+            position: absolute;
+            top: var(--HR-sz-0);
+            left: var(--HR-sz-0);
+            border-radius: var(--HR-sz-10);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+
+            span {
+                font-size: var(--HR-sz-20);
+                color: #fff;
+            }
+        }
+
+        /* =======[ Hover ]======= */
+        &:hover {
+            cursor: zoom-in;
+
+            .hr-hover-plus {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.hr-pop-images,
+.hr-pop-Video {
+    cursor: zoom-in;
+}
+
+/* =======[ More Images Widget End ]======= */
+
+/* =======[ About Widget Start ]======= */
+.hr-widget-y-award {
+    display: flex;
+    align-items: center;
+
+    /* =======[ Icon ]======= */
+    .hr-award-icon {
+        width: var(--HR-sz-100);
+        height: var(--HR-sz-100);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: var(--HR-sz-30);
+    }
+
+    /* =======[ Content ]======= */
+    .hr-award-content {
+
+        /* =======[ Sub Titel ]======= */
+        .hr-sub-titel {
+            display: block;
+            font-size: var(--HR-sz-14);
+            line-height: var(--HR-sz-16);
+            margin: var(--HR-sz-0) var(--HR-sz-0) var(--HR-sz-0);
+
+            h6 {
+                display: block;
+                font-size: var(--HR-sz-14);
+                line-height: var(--HR-sz-16);
+                margin: var(--HR-sz-0) var(--HR-sz-0) var(--HR-sz-0);
+            }
+        }
+
+        /* =======[ Titel ]======= */
+        .hr-titel {
+            display: block;
+            font-size: var(--HR-sz-16);
+            line-height: var(--HR-sz-36);
+
+            h5 {
+                display: block;
+                font-size: var(--HR-sz-16);
+                line-height: var(--HR-sz-36);
+                margin: var(--HR-sz-0) var(--HR-sz-0) var(--HR-sz-0);
+            }
+        }
+    }
+}
+
+/* =======[ About Widget End ]======= */
+
+/* =======[ Blur Widget Start ]======= */
+.hr-blur-widget-card {
+    background: rgba(0, 0, 0, 0.3058823529);
+    -webkit-backdrop-filter: blur(var(--HR-sz-5));
+    backdrop-filter: blur(var(--HR-sz-5));
+    padding: var(--HR-sz-14) var(--HR-sz-20);
+    -webkit-border-radius: var(--HR-sz-8);
+    -moz-border-radius: var(--HR-sz-8);
+    border-radius: var(--HR-sz-8);
+    margin-top: var(--HR-sz-10);
+
+    .hr-blur-widget-content {
+        .hr-titel {
+            font-size: var(--HR-sz-15);
+            margin-bottom: var(--HR-sz-13);
+            line-height: var(--HR-per-100);
+
+            b {
+                font-size: var(--HR-sz-15);
+                margin-bottom: var(--HR-sz-0);
+                display: block;
+                line-height: var(--HR-per-100);
+            }
+        }
+
+        .hr-blur-widget-count-wrap {
+            .hr-count {
+                font-size: var(--HR-sz-28);
+                font-weight: var(--HR-fw-600);
+                margin-bottom: var(--HR-sz-10);
+                line-height: var(--HR-per-100);
+
+                h5 {
+                    font-size: var(--HR-sz-28);
+                    display: block;
+                    font-weight: var(--HR-fw-600);
+                    margin-bottom: var(--HR-sz-0);
+                    line-height: var(--HR-per-100);
+                }
+            }
+
+            .hr-info {
+                font-size: var(--HR-sz-14);
+                text-transform: capitalize;
+                line-height: var(--HR-per-100);
+
+                span {
+                    font-size: var(--HR-sz-14);
+                    text-transform: capitalize;
+                    line-height: var(--HR-per-100);
+                }
+            }
+        }
+    }
+}
+
+/* =======[ Blur Widget End ]======= */
+
+/* ============[ Widget End ]============ */

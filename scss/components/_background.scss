@@ -1,0 +1,30 @@
+/* ============[ Background Start ]============ */
+.hr-background-fixed {
+    background-attachment: fixed !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hr-anm-run-bg {
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: 0 0;
+    color: #fff;
+    overflow: hidden;
+    animation: animatedBackground 50s linear infinite;
+    background-attachment: fixed;
+    position: relative;
+}
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* ============[ Background Start ]============ */

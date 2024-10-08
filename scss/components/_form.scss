@@ -1,0 +1,160 @@
+/* ============[ Form Start ]============ */
+/* ============[ Form Head Start ]============ */
+.hr-form-card {
+    border-radius: var(--HR-sz-10);
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+    height: calc(var(--HR-per-100) - var(--HR-sz-25));
+    margin-bottom: var(--HR-sz-25);
+
+    .hr-form-card-body {
+        padding: var(--HR-sz-24) var(--HR-sz-24);
+    }
+}
+
+.hr-form-head {
+
+    /* ============[ Titel ]============ */
+    .hr-titel {
+        margin-bottom: var(--HR-sz-5);
+
+        h3 {
+            margin-bottom: var(--HR-sz-0);
+        }
+    }
+
+    /* ============[ Dec ]============ */
+    .hr-dec {
+        margin-bottom: var(--HR-sz-15);
+
+        p {
+            margin-bottom: var(--HR-sz-0);
+        }
+    }
+}
+
+/* ============[ Form Head End ]============ */
+
+/* ============[ Field Group ]============ */
+.hr-field-group {
+    margin-bottom: var(--HR-sz-25);
+    position: relative;
+
+    .hr-error-text {
+        margin-top: var(--HR-sz-5);
+    }
+
+    .hr-pass-view {
+        position: absolute;
+        top: var(--HR-sz-14);
+        right: var(--HR-sz-15);
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: var(--HR-sz-22);
+        cursor: pointer;
+    }
+
+    .form-check {
+        .form-check-input {
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .form-check-label {
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+/* ============[ Form Control ]============ */
+.form-control {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+/* ============[ Form Error ]============ */
+.hr-error-text {
+    color: red;
+}
+
+/* ============[ Contact Info Start ]============ */
+.hr-contact-detail {
+    .hr-contact-info {
+        display: flex;
+        align-items: center;
+        margin-bottom: var(--HR-sz-25);
+
+        /* ============[ Icon]============ */
+        .hr-icon {
+            width: var(--HR-sz-50);
+            height: var(--HR-sz-50);
+            border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: var(--HR-sz-12);
+            border-radius: var(--HR-sz-8);
+        }
+
+        /* ============[ Contact Info ]============ */
+        .hr-info {
+            width: calc(var(--HR-per-100) - var(--HR-sz-62));
+
+            /* ============[ Titel ]============ */
+            b {
+                font-weight: var(--HR-fw-500);
+                display: block;
+            }
+
+            /* ============[ Dec ]============ */
+            p {
+                margin-bottom: var(--HR-sz-0);
+            }
+        }
+    }
+
+    /* ============[ HR Line ]============ */
+    .hr-line-x {
+        width: 100%;
+        height: var(--HR-sz-1);
+        background: rgba(0, 0, 0, 0.3058823529);
+        margin: var(--HR-sz-15) var(--HR-sz-0);
+    }
+
+    /* ============[ Social ]============ */
+    .hr-social {
+        margin-top: var(--HR-sz-15);
+
+        .nav {
+            .nav-item {
+                margin-right: var(--HR-sz-10);
+
+                .nav-link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+                    border-radius: var(--HR-per-50);
+                    width: var(--HR-sz-40);
+                    height: var(--HR-sz-40);
+                    padding: var(--HR-sz-0);
+                    font-size: var(--HR-sz-18);
+
+                    span {
+                        font-size: var(--HR-sz-16);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ============[ Contact Info End ]============ */
+
+/* ============[ Form End ]============ */

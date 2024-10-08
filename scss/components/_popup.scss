@@ -1,0 +1,93 @@
+/* ============[ Pop Up Start ]============ */
+/* ============[ Search-Popup ]============ */
+.hr-search-pop {
+    position: absolute;
+    top: var(--HR-sz-0);
+    left: var(--HR-sz-0);
+    width: var(--HR-per-100);
+    height: var(--HR-vh-100);
+    background: rgba(0, 0, 0, 0.5058823529);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999;
+
+    .hr-form {
+        width: var(--HR-per-100);
+        max-width: 700px;
+        margin: var(--HR-sz-0) auto;
+
+        form {
+            .hr-form-group {
+                position: relative;
+
+                .form-control {
+                    font-size: var(--HR-sz-18);
+                    height: var(--HR-sz-70);
+                    width: var(--HR-per-100);
+                    border: var(--HR-sz-2) solid #eee;
+                    background-color: transparent;
+                    padding-left: var(--HR-sz-30);
+                    color: #fff;
+                    border-radius: var(--HR-sz-50);
+                    padding-right: var(--HR-sz-70);
+
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+
+                .hr-btn-search {
+                    position: absolute;
+                    top: var(--HR-sz-0);
+                    background-color: transparent;
+                    border: none;
+                    font-size: var(--HR-sz-24);
+                    right: var(--HR-sz-12);
+                    color: #fff;
+                    width: var(--HR-sz-70);
+                    height: var(--HR-sz-70);
+                    transition: all ease 0.4s;
+
+                    span {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .hr-pop-close {
+        position: absolute;
+        top: var(--HR-sz-40);
+        right: var(--HR-sz-40);
+
+        .hr-close {
+            width: var(--HR-sz-60);
+            height: var(--HR-sz-60);
+            padding: var(--HR-sz-0);
+            margin: var(--HR-sz-0);
+            background: transparent;
+            border: var(--HR-sz-1) solid #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                font-size: var(--HR-sz-22);
+                color: #eee;
+            }
+
+            &:hover {
+                background: #eee;
+
+                span {
+                    color: #000;
+                }
+            }
+        }
+
+    }
+}
+
+/* ============[ Pop Up End ]============ */

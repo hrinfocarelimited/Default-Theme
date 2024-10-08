@@ -1,0 +1,14 @@
+/* ===========[ Accordion Start ]=========== */
+.accordion {
+    .accordion-item {
+        .accordion-header {
+            .accordion-button {
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+/* ===========[ Accordion End ]=========== */

@@ -1,0 +1,112 @@
+/* ============[ Auth Start ]============ */
+.hr-auth {
+    width: var(--HR-vw-100);
+    height: var(--HR-vh-100);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+
+    .hr-auth-wrap {
+        display: flex;
+        width: var(--HR-per-100);
+        height: var(--HR-per-100);
+
+        .hr-auth-card {
+            max-width: 380px;
+            border-radius: var(--HR-sz-10);
+            border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+            height: auto;
+            margin-bottom: var(--HR-sz-25);
+            background: #FFF;
+
+            .hr-auth-card-body {
+                width: var(--HR-per-100);
+                height: var(--HR-per-100);
+                padding: var(--HR-sz-25);
+                position: relative;
+
+                .hr-auth-head {
+                    .hr-brand {
+                        margin-bottom: var(--HR-sz-25);
+
+                        img {
+                            height: var(--HR-sz-60);
+                            width: auto;
+                        }
+                    }
+                }
+
+                .hr-titel {
+                    font-size: var(--HR-sz-30);
+                    line-height: var(--HR-sz-35);
+                    font-family: var(--HR-fw-600);
+                    margin-bottom: 0px;
+
+                    h3 {
+                        font-size: var(--HR-sz-30);
+                        line-height: var(--HR-sz-35);
+                        font-family: var(--HR-fw-600);
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .hr-dec {
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    font-size: var(--HR-sz-18);
+                    line-height: var(--HR-sz-28);
+                    font-family: var(--HR-fw-500);
+
+                    p {
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 3;
+                        font-size: var(--HR-sz-18);
+                        line-height: var(--HR-sz-28);
+                        font-family: var(--HR-fw-500);
+                        margin-bottom: var(--HR-sz-0);
+
+                        a {
+                            font-size: var(--HR-sz-18);
+                            line-height: var(--HR-sz-28);
+                            font-family: var(--HR-fw-500);
+                            margin-bottom: var(--HR-sz-0);
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+
+                .hr-form {
+                    .hr-link {
+                        margin-bottom: var(--HR-sz-25);
+                        font-size: var(--HR-sz-18);
+                        line-height: var(--HR-sz-28);
+                        font-family: var(--HR-fw-500);
+
+                        a {
+                            font-size: var(--HR-sz-18);
+                            line-height: var(--HR-sz-28);
+                            font-family: var(--HR-fw-500);
+                            margin-bottom: var(--HR-sz-0);
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ============[ Auth Start ]============ */

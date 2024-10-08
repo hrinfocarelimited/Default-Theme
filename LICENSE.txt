@@ -1,0 +1,50 @@
+License Information for [HRInfo-Theme]
+=========================================
+
+This file includes the licensing information for Bootstrap 5.3.3 and [HRInfo-Theme].
+
+---
+
+### Bootstrap 5.3.3 License
+
+Bootstrap is licensed under the MIT License (https://opensource.org/licenses/MIT).
+
+Copyright (c) 2011-2023 Twitter, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+### [Your Theme Name] License
+
+Copyright (c) 2024 Hrinfocare
+
+This theme is built using Bootstrap 5.3.3, which is open source and licensed under the MIT License. However, this custom theme is proprietary and is intended exclusively for use by [Your Company/Name] and its clients.
+
+The theme and its associated files are not open source and are licensed under the following terms:
+
+- **Usage**: This theme may be used by Hrinfocare and its clients only.
+- **Restrictions**: Redistribution, modification, or commercial use of this theme outside of the intended clients is prohibited without explicit permission from [Your Company/Name].
+- **Warranties**: This theme is provided "as is", without any warranty of any kind, either express or implied, including but not limited to the warranties of merchantability and fitness for a particular purpose. [Your Company/Name] shall not be liable for any damages arising from the use of this theme.
+
+For more information or to request permission for use outside of the intended scope, please contact [Your Contact Information].
+
+---
+
+End of License Information

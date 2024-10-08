@@ -1,0 +1,63 @@
+/* ============[ Masonry Start ]============ */
+/* =======[ Grid Two ]======= */
+.hr-two-grid {
+
+    .grid-sizer,
+    .grid-item {
+        width: 50%;
+    }
+}
+
+/* =======[ Grid Three ]======= */
+.hr-three-grid {
+
+    .grid-sizer,
+    .grid-item {
+        width: 33.3333333333%;
+    }
+}
+
+/* =======[ Grid Four ]======= */
+.hr-four-grid {
+
+    .grid-sizer,
+    .grid-item {
+        width: 25%;
+    }
+}
+
+/* =======[ Grid Five ]======= */
+.hr-five-grid {
+
+    .grid-sizer,
+    .grid-item {
+        width: 20%;
+    }
+}
+
+/* =======[ Grid Six ]======= */
+.hr-Six-grid {
+
+    .grid-sizer,
+    .grid-item {
+        width: 16.66666666%;
+    }
+}
+
+.hr-masonry-gallery {
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+
+    .grid-sizer {
+        padding-right: calc(var(--bs-gutter-x)* 0.5);
+        padding-left: calc(var(--bs-gutter-x)* 0.5);
+    }
+
+    .grid-item {
+        padding-right: calc(var(--bs-gutter-x)* 0.5);
+        padding-left: calc(var(--bs-gutter-x)* 0.5);
+        margin-bottom: calc(var(--bs-gutter-x)* 1);
+    }
+}
+
+/* ============[ Masonry End ]============ */

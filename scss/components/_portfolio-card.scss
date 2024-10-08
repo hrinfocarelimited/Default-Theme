@@ -1,0 +1,58 @@
+.hr-portfolio-card {
+    border: var(--HR-sz-1) solid rgba(0, 0, 0, 0.3058823529);
+    position: relative;
+    margin-bottom: var(--HR-sz-25);
+
+    /* =======[ Image ]======= */
+    .hr-portfolio-bg {
+        width: var(--HR-per-100);
+        height: var(--HR-sz-250);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        /* =======[ Over Hover ]======= */
+        .hr-portfolio-over-content {
+            background: rgba(0, 0, 0, 0.3058823529);
+            width: var(--HR-per-100);
+            height: var(--HR-per-100);
+            position: absolute;
+            top: var(--HR-sz-0);
+            left: var(--HR-sz-0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+
+            .hr-sub-titel {
+                font-size: var(--HR-sz-18);
+                line-height: var(--HR-sz-22);
+
+                h5 {
+                    font-size: var(--HR-sz-18);
+                    line-height: var(--HR-sz-22);
+                }
+            }
+
+
+            .hr-titel {
+                margin-bottom: var(--HR-sz-0);
+                font-size: var(--HR-sz-26);
+                line-height: var(--HR-sz-30);
+
+                h3 {
+                    margin-bottom: var(--HR-sz-0);
+                    font-size: var(--HR-sz-26);
+                    line-height: var(--HR-sz-30);
+                }
+            }
+        }
+
+        &:hover {
+            .hr-portfolio-over-content {
+                opacity: 1;
+            }
+        }
+    }
+}
